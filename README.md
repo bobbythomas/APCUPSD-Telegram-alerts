@@ -1,4 +1,4 @@
-# APC-Telegram-alerts
+# APC UPS-Telegram-alerts
 APC Telegram alerts using upsfstats.cgi
 
   This script fetches the output from the upsfstats.cgi on the master/slave apcupsd and capture specific field value (Battery charge) and send notification to Telegram bot when there is a power outage.
