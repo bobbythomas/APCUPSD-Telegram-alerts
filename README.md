@@ -8,6 +8,6 @@ APC Telegram alerts using upsfstats.cgi
   Advantage of this approach is that we don't need apcupsd client or web gui installed on the system running this code, the data is collected over the network via http.
   
   Notification alerts will be sent to telegram through Telegram bot. You will need Telegram token code and the chat id for notification via telegram bot. Please follow below for telegram bot setup.
-https://gist.github.com/iwanmartinsetiawan/d10927443fcbad4ecbd2336b2e99e9de
+https://gist.github.com/dlaptev/7f1512ee80b7e511b0435d3ba95d88cc
   
-  Finally thanks to https://gist.github.com/iwanmartinsetiawan and Rene from Domoticz forum (https://www.domoticz.com/forum/memberlist.php?mode=viewprofile&u=3190&sid=3dd5940c032ef638e707d2debda2da96) whose code help me develop this script.
+  Finally thanks to https://gist.github.com/dlaptev and Rene from Domoticz forum (https://www.domoticz.com/forum/memberlist.php?mode=viewprofile&u=3190&sid=3dd5940c032ef638e707d2debda2da96) whose code help me develop this script.
