@@ -3,7 +3,7 @@ APC Telegram alerts using upsfstats.cgi
 
   This script fetches the output from the upsfstats.cgi on the master/slave apcupsd and capture specific field value (Battery charge) and send notification to Telegram bot when there is a power outage.
 
-  Make sure you have apcupsd package installed and configured on the Master/slave host which monitors UPS along with the apcupsd-cgi package installed. Once Apcupsd-cgi is installed properly (after apache 2 is installed) you should be able to view the upsfstats.cgi page from http://<IP address of the UPS host>/cgi-bin/apcupsd/upsfstats.cgi
+  Make sure you have apcupsd package installed and configured on the Master/slave host which monitors UPS along with the apcupsd-cgi package installed. Once Apcupsd-cgi is installed properly (after apache 2 is installed) you should be able to view the upsfstats.cgi page from http://<IP address>/cgi-bin/apcupsd/upsfstats.cgi
 
   Advantage of this approach is that we don't need apcupsd client or web gui installed on the system running this code, the data is collected over the network via http.
   
