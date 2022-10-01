@@ -10,7 +10,7 @@ BCHARGE = "100"  # Idx for Battery Charge
 def apc_probe():
 	batt = 100  # Set the battery percentage to 100 initially
 	dict = {'LINEV': LINEV, 'BATTV': BATTV, 'LOADPCT': LOADPCT,
-			'BCHARGE': BCHARGE}  # Convert Keyword to Domoticz index.
+			'BCHARGE': BCHARGE}  #
 	while True:  # Endless loop
 		upsfstats_status = None
 		try:                                  # This keeps try connecting to the UPS host when connection error occurs or connection is interrupted.
